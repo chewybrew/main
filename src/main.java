@@ -34,7 +34,7 @@ public class main {
         }
 
         String str2 = response.substring(0, 500);
-        System.out.println(str2.substring(str2.indexOf("<title>")+7, str2.indexOf("</title>")-38));
+        System.out.println(str2.substring(str2.indexOf("<title>")+7, str2.indexOf("</title>")-38)); //Текущая цена RVN/USDT
 
     }
 }
